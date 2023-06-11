@@ -7,9 +7,6 @@ using namespace std;
 
 
 int main(){
-    CAsyncSslRec *c = new CAsyncSslRec();
+    CAsyncSslRec *c = new TestingAsyncSslRec();
     c->Init();
-
-    CAsyncSslRec *c1 = new TestingAsyncSslRec();
-    c1->Init();
 }
