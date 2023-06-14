@@ -36,3 +36,5 @@ string QuarterlyReportGenerator::generate()
     pageText += "</html>";
     return pageText;
 }
+
+//需要给它生存的HTML表格添加一行标题栏
